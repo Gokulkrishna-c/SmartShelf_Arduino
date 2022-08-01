@@ -112,7 +112,7 @@ void loop() {
   Serial.print("\t| average:\t");
   Serial.println(scale.get_units(10), 1);
 */
-int indi = (scale.get_units()/490);
+int indi = (scale.get_units()/490); // Number of individual product 
 
   display.clearDisplay();
 
